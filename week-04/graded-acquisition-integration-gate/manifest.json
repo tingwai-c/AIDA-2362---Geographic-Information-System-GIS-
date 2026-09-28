@@ -1,0 +1,29 @@
+{
+  "course": "AIDA 2362",
+  "week": 4,
+  "lab": "Week 4 Graded Lab 1",
+  "student": "Evelyn Chen",
+  "decision": "conditional",
+  "input_files": [
+    "facilities.geojson",
+    "service_zones.geojson",
+    "source_inventory.csv",
+    "metadata.json",
+    "qgis-project.qgz"
+  ],
+  "outputs": [
+    "outputs/facilities_with_zones.gpkg",
+    "outputs/facilities_with_zones_intersect.gpkg",
+    "outputs/changed-variable-comparison.csv",
+    "outputs/facility-service-zone-relationship.png",
+    "outputs/processing-record.md",
+    "outputs/service_zones_valid.gpkg",
+    "outputs/service_zones_invalid.gpkg",
+    "outputs/service_zones_errors.gpkg",
+    "outputs/text-table-equivalent.md"
+  ],
+  "crs_and_units": "Storage CRS: EPSG:4326, units: degrees. EPSG:32612 is the documented analysis CRS where metric distance or area is required.",
+  "changed_variable": "Spatial predicate changed from within to intersects; both settings produced 5 matched facility features.",
+  "privacy_and_governance_review": "The supplied data are fictional and contain no real people or precise sensitive locations. Community or Indigenous data would require the relevant Nation or community authority and locally specific protocols.",
+  "ai_assistance_declared": true
+}
