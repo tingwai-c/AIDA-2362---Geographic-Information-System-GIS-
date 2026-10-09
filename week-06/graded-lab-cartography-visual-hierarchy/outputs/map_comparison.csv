@@ -1,0 +1,8 @@
+
+zone_id,zone_name,access_index,locations_reviewed,part_a_class,part_b_class
+AZ-01,Northwest,34,4,1,1
+AZ-02,North Central,48,9,1,2
+AZ-03,Northeast,53,6,2,2
+AZ-04,Southwest,67,8,2,4
+AZ-05,South Central,71,5,3,4
+AZ-06,Southeast,88,10,3,5
